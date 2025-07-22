@@ -5,7 +5,8 @@ https://www.figma.com/design/CYjKvZQo3db8xYCp6DCkKj/%E5%85%AD%E8%A7%92%EF%BD%9C%
 講義連結
 https://chalk-freedom-ec6.notion.site/2296ab47eb48809ca668e3137108eafd?pvs=74
  
-故事RWD
+品牌故事RWD https://marcochiu.github.io/20250711_1/story.html
 
+產品列表 https://marcochiu.github.io/20250711_1/products.html
 
-產品業面RWD
+產品詳情 https://marcochiu.github.io/20250711_1/productdetail.html
