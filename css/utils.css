@@ -1,46 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
-
-/* 通用 */
-:root {
-    --text-Primary-400: #57A203;
-    --text-neutral-white: #ffffff;
-    --text-neutral-300: #DEE2E6;
-    --text-neutral-500: #ADB5BD;
-    --text-neutral-600: #6C757D;
-    --text-neutral-900: #212529;
-    --text-Danger-300: #D74F4F;
-    --bg-Primary-100: #F5FEE7;
-    --bg-Primary-200: #E8FEC5;
-    --bg-Primary-300: #C0FA73;
-    --bg-neutral-100: #F8F9FA;
-
-    --row-margin: -12px;
-    --col-padding: 12px;
-    --col-md-padding: 6px;
-}
-
-body {
-    font-family: 'Noto Sans TC', sans-serif;
-    color: var(--text-neutral-900);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-}
-
-a {
-    color: var(--text-neutral-900);
-    text-decoration: none;
-    display: block;
-    font-weight: 500;
-}
-
 .container {
     /* 助教計算 原1296+12+12=1320 */
     max-width: 1320px;
@@ -95,12 +52,7 @@ a {
     font-size: 14px;
 }
 
-/* 盒模型多少寬度就算多少 */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+
 
 /* 標題 */
 .h1 {
@@ -596,92 +548,4 @@ a {
 
 .gap-8 {
     gap: 8px;
-}
-
-
-/* Pages */
-.btn {
-    border-radius: 4px;
-    /*二個值，【上下】採用同一值，【左右】採用同一值*/
-    padding: 12px 24px;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-}
-
-@media (max-width:576px) {
-    .btn {
-        padding: 8px 16px;
-    }
-}
-
-.btn-dark {
-    background-color: var(--text-neutral-900);
-    color: var(--text-neutral-white);
-}
-
-.btn-light {
-    border: 1px solid var(--text-neutral-900);
-}
-
-@media (max-width:576px) {
-    .btn-light {
-        /* padding-left: 12px;
-        padding-right: 12px; */
-    }
-}
-
-/* .breadcurmslash {
-    padding: 0 12px;
-    color: var(--text-neutral-300);
-    font-weight: 700;
-}
-
-.breadcurmblink {
-    color: var(--text-neutral-600);
-    font-weight: 500;
-} */
-
-/* 助教demo / 的部分 */
-.breadcrumb-item+.breadcrumb-item::before {
-    content: "/";
-    padding: 0 12px;
-    color: var(--text-neutral-300);
-    font-weight: 700;
-}
-
-.breadcrumb-item {
-    display: flex;
-    font-weight: 500;
-    font-size: 14px;
-    /* white-space:nowrap; */
-}
-
-.breadcrumb-link {
-    color: var(--text-neutral-600)
-}
-
-@media (max-width:767px) {
-    .breadcrumb-item+.breadcrumb-item::before {
-        padding: 0 8px;
-    }
-
-    .breadcrumb-item {
-        font-size: 14px;
-    }
-}
-
-.section-line {
-    border-bottom: 1px solid var(--text-neutral-300);
-}
-
-.copyright {
-    padding-top: 32px;
-    text-align: center;
-    border-top: 1px solid var(--text-neutral-300);
-    font-size: 14px;
-    color: var(--text-neutral-600);
 }

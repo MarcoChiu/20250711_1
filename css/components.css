@@ -1,0 +1,86 @@
+/* Pages */
+.btn {
+    border-radius: 4px;
+    /*二個值，【上下】採用同一值，【左右】採用同一值*/
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+@media (max-width:576px) {
+    .btn {
+        padding: 8px 16px;
+    }
+}
+
+.btn-dark {
+    background-color: var(--text-neutral-900);
+    color: var(--text-neutral-white);
+}
+
+.btn-light {
+    border: 1px solid var(--text-neutral-900);
+}
+
+@media (max-width:576px) {
+    .btn-light {
+        /* padding-left: 12px;
+        padding-right: 12px; */
+    }
+}
+
+/* .breadcurmslash {
+    padding: 0 12px;
+    color: var(--text-neutral-300);
+    font-weight: 700;
+}
+
+.breadcurmblink {
+    color: var(--text-neutral-600);
+    font-weight: 500;
+} */
+
+/* 助教demo / 的部分 */
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "/";
+    padding: 0 12px;
+    color: var(--text-neutral-300);
+    font-weight: 700;
+}
+
+.breadcrumb-item {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    /* white-space:nowrap; */
+}
+
+.breadcrumb-link {
+    color: var(--text-neutral-600)
+}
+
+@media (max-width:767px) {
+    .breadcrumb-item+.breadcrumb-item::before {
+        padding: 0 8px;
+    }
+
+    .breadcrumb-item {
+        font-size: 14px;
+    }
+}
+
+.section-line {
+    border-bottom: 1px solid var(--text-neutral-300);
+}
+
+.copyright {
+    padding-top: 32px;
+    text-align: center;
+    border-top: 1px solid var(--text-neutral-300);
+    font-size: 14px;
+    color: var(--text-neutral-600);
+}
