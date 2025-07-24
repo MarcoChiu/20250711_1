@@ -9,4 +9,4 @@ https://chalk-freedom-ec6.notion.site/2296ab47eb48809ca668e3137108eafd?pvs=74
 
 產品列表RWD https://marcochiu.github.io/20250711_1/products.html
 
-產品詳情(未完成) https://marcochiu.github.io/20250711_1/productdetail.html
+產品詳情RWD https://marcochiu.github.io/20250711_1/productdetail.html
