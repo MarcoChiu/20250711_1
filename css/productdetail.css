@@ -22,6 +22,18 @@
     padding-right: 4px;
 }
 
+@media (max-width:767px) {
+
+    .product-row .product-col {
+        width: 100%;
+    }
+
+    /* 參考https://codepen.io/wenetcodepen/pen/rNJQVbY */
+    .product-row .product-col:nth-child(n+2) {
+        display: none;
+    }
+}
+
 .del-price {
     font-size: 14px;
     font-weight: 400;
@@ -39,7 +51,7 @@
 .btn-product-size {
     border: 1px solid var(--text-neutral-300);
     max-width: 160px;
-       width: 100%;
+    width: 100%;
 }
 
 /* 一個物件有兩個class class="btn-product-size active" */
@@ -47,13 +59,23 @@
 .btn-product-size:hover {
     border: 1px solid var(--text-neutral-900);
     max-width: 160px;
-       width: 100%;
+    width: 100%;
 }
 
 /* 的btn的btn */
 /* product-action 下層的btn */
 .product-action .btn {
     width: 50%;
+}
+
+@media (max-width:767px) {
+    .product-action .btn-md-90 {
+        width: 90%;
+    }
+
+    .product-action .btn-md-10 {
+        width: 10%;
+    }     
 }
 
 .product-info {
@@ -67,4 +89,3 @@
 .product-info-item {
     color: var(--text-neutral-600);
 }
-

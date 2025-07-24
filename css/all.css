@@ -237,12 +237,20 @@ a {
     padding-right: 8px;
 }
 
+
+
 /* 下方 */
 .pb-48 {
     padding-bottom: 48px;
 }
 
 @media (max-width:767px) {
+
+    .pr-md-0 {
+
+        padding-right: 0;
+
+    }
 
     /* 助教是px */
     .plr-md-12 {
@@ -251,6 +259,12 @@ a {
     }
 
     /* 助教是py */
+
+    .ptd-md-0 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
     .ptb-md-12 {
         padding-top: 12px;
         padding-bottom: 12px;
@@ -410,6 +424,10 @@ a {
     .d-md-none {
         display: none;
     }
+
+    .d-md-reverse {
+        flex-direction: row-reverse;
+    }
 }
 
 @media (max-width:576px) {
@@ -441,14 +459,18 @@ a {
 .row {
     display: flex;
     flex-wrap: wrap;
-    /* padding-left: var(--col-padding);
-    padding-right: var(--col-padding); */
 }
 
-/* .row-m {
-    margin-left: var(--row-margin);
-    margin-right: var(--row-margin);
-} */
+/* 順序的關係這邊要拿到row底下 nowrap才會生效 */
+@media (max-width:767px) {
+    .flex-md-none {
+        flex: none;
+    }
+    .flex-infinity-scrollx {        
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+}
 
 .column {
     display: flex;
@@ -605,6 +627,13 @@ a {
     border: 1px solid var(--text-neutral-900);
 }
 
+@media (max-width:576px) {
+    .btn-light {
+        /* padding-left: 12px;
+        padding-right: 12px; */
+    }
+}
+
 /* .breadcurmslash {
     padding: 0 12px;
     color: var(--text-neutral-300);
@@ -627,6 +656,8 @@ a {
 .breadcrumb-item {
     display: flex;
     font-weight: 500;
+    font-size: 14px;
+    /* white-space:nowrap; */
 }
 
 .breadcrumb-link {
