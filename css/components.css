@@ -25,17 +25,7 @@
 .btn-light {
     border: 1px solid var(--text-neutral-900);
 } 
-
-/* .breadcurmslash {
-    padding: 0 12px;
-    color: var(--text-neutral-300);
-    font-weight: 700;
-}
-
-.breadcurmblink {
-    color: var(--text-neutral-600);
-    font-weight: 500;
-} */
+ 
 
 /* 助教demo / 的部分 */
 .breadcrumb-item+.breadcrumb-item::before {
