@@ -1,18 +1,3 @@
-/* .container {    
-    max-width: 1296px;
-    margin: 0 auto;
-} */
-
-/* a{
-    color: var(--text-neutral-900);
-    text-decoration: none;
-    display: block;
-    font-weight: 500;
-} */
-
-/* Page */
-
-
 .category .active{
     color:var(--text-Primary-400);
 }
@@ -28,8 +13,3 @@
     background-color: var(--bg-Primary-300);
     font-weight: 500;
 }
-
-/* 先寫大的尺寸再寫小的 */
-@media (max-width:992px) {}
-
-@media (max-width:768px) {}

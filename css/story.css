@@ -1,8 +1,3 @@
-/* .container {
-    max-width: 856px;
-    margin: 0 auto;
-} */
-
 /* Page */
 .header {
     background-image: url(../images/heder.png);
@@ -48,13 +43,6 @@
     text-align: center;
 }
 
-/* .intro img {
- 
-    max-width: 100%;
-} */
-
-
-
 .history-list {
     list-style-type: disc;
     padding-left: 24px;
@@ -81,15 +69,6 @@
     background-color: var(--text-Primary-400);
 }
 
-/* footer {
-    text-align: center;
-} */
-
-/* min以下 max以上 */
-
-/* max的話先寫大的尺寸再寫小的  */
-/* screen print */
-/* 992尺寸以下時 */
 @media screen and (max-width:992px) {
     .intro {
         /* 要將原本推的去掉才不會有X軸 */
