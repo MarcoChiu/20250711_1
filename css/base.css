@@ -27,3 +27,6 @@ a {
     display: block;
     font-weight: 500;
 }
+.nava:hover{
+    color:var(--text-Primary-400) ;
+}

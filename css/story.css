@@ -1,5 +1,5 @@
 /* Page */
-.header {
+.storyheader {
     background-image: url(../images/heder.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,10 +12,10 @@
     /*一個值，【上下左右】都使用相同的值*/
     padding: 152px 0;
     text-align: center;
-}
+} 
 
 @media (max-width:767px) {
-    .header {
+    .storyheader {
         padding-top: 87px;
         padding-bottom: 87px;
         background-image: url(../images/hero-sm.png);
@@ -49,13 +49,13 @@
 }
 
 .history-desc {
-    border-left: 1px solid var(--text-neutral-900);
+    border-left: 1px solid var(--text-Primary-400);
     padding-left: 8px;
 }
 
 .concept-item {
     padding-left: 12px;
-    border-left: 3px solid var(--text-neutral-300);
+    border-left: 3px solid var(--text-Primary-300);
 }
 
 .storya {
@@ -65,7 +65,7 @@
 }
 
 .storya:hover {
-    color: var(--text-neutral-white);
+    color:  var(--text-neutral-white);
     background-color: var(--text-Primary-400);
 }
 
@@ -81,8 +81,5 @@
 
 /* 768尺寸以下時 */
 @media screen and (max-width:768px) {
-    .container {
-        padding-right: 5px;
-        padding-left: 5px;
-    }
+    
 }
